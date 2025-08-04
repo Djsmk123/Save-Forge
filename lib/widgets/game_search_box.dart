@@ -2,10 +2,10 @@ import 'dart:async';
 
 import 'package:fluent_ui/fluent_ui.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:game_save_manager/blocs/add-game/add_game_cubit.dart';
-import 'package:game_save_manager/blocs/add-game/add_game_state.dart';
-import 'package:game_save_manager/models/api/rawg_models.dart';
-import 'package:game_save_manager/core/compontents/image_widget.dart';
+import 'package:saveforge/blocs/add-game/add_game_cubit.dart';
+import 'package:saveforge/blocs/add-game/add_game_state.dart';
+import 'package:saveforge/models/api/rawg_models.dart';
+import 'package:saveforge/core/compontents/image_widget.dart';
 
 class GameSearchBox extends StatefulWidget {
   final TextEditingController controller;

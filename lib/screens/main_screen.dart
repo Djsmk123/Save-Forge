@@ -1,19 +1,19 @@
 import 'package:fluent_ui/fluent_ui.dart';
-import 'package:game_save_manager/core/utils.dart';
+import 'package:saveforge/core/utils.dart';
 import 'package:glassmorphism/glassmorphism.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:game_save_manager/core/logging/app_logger.dart';
-import 'package:game_save_manager/core/di/injection.dart';
-import 'package:game_save_manager/blocs/game/game_bloc.dart';
-import 'package:game_save_manager/blocs/profile/profile_bloc.dart';
-import 'package:game_save_manager/models/game.dart';
-import 'package:game_save_manager/models/profile.dart';
-import 'package:game_save_manager/services/save_manager.dart';
-import 'package:game_save_manager/widgets/game_list.dart';
-import 'package:game_save_manager/widgets/game_details.dart';
-import 'package:game_save_manager/widgets/add_game_dialog.dart';
-import 'package:game_save_manager/widgets/export_dialog.dart';
-import 'package:game_save_manager/core/compontents/info_bar.dart';
+import 'package:saveforge/core/logging/app_logger.dart';
+import 'package:saveforge/core/di/injection.dart';
+import 'package:saveforge/blocs/game/game_bloc.dart';
+import 'package:saveforge/blocs/profile/profile_bloc.dart';
+import 'package:saveforge/models/game.dart';
+import 'package:saveforge/models/profile.dart';
+import 'package:saveforge/services/save_manager.dart';
+import 'package:saveforge/widgets/game_list.dart';
+import 'package:saveforge/widgets/game_details.dart';
+import 'package:saveforge/widgets/add_game_dialog.dart';
+import 'package:saveforge/widgets/export_dialog.dart';
+import 'package:saveforge/core/compontents/info_bar.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});

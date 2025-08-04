@@ -1,10 +1,10 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:game_save_manager/models/profile.dart';
-import 'package:game_save_manager/models/game.dart';
-import 'package:game_save_manager/services/data_service.dart';
-import 'package:game_save_manager/services/save_manager.dart';
-import 'package:game_save_manager/core/logging/app_logger.dart';
+import 'package:saveforge/models/profile.dart';
+import 'package:saveforge/models/game.dart';
+import 'package:saveforge/services/data_service.dart';
+import 'package:saveforge/services/save_manager.dart';
+import 'package:saveforge/core/logging/app_logger.dart';
 
 // Events
 abstract class ProfileEvent extends Equatable {

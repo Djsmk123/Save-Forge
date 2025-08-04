@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
-import 'package:game_save_manager/core/logging/app_logger.dart';
+import 'package:saveforge/core/logging/app_logger.dart';
 
 class ApiClient {
   late final Dio _dio;

@@ -2,10 +2,10 @@ import 'dart:io';
 import 'package:path/path.dart' as path;
 import 'package:path_provider/path_provider.dart';
 import 'package:uuid/uuid.dart';
-import 'package:game_save_manager/models/game.dart';
-import 'package:game_save_manager/models/profile.dart';
-import 'package:game_save_manager/core/logging/app_logger.dart';
-import 'package:game_save_manager/services/data_service.dart';
+import 'package:saveforge/models/game.dart';
+import 'package:saveforge/models/profile.dart';
+import 'package:saveforge/core/logging/app_logger.dart';
+import 'package:saveforge/services/data_service.dart';
 
 class SaveManager {
   final DataService _dataService;

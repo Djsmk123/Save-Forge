@@ -1,9 +1,9 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:file_picker/file_picker.dart';
-import 'package:game_save_manager/blocs/add-game/add_game_state.dart';
-import 'package:game_save_manager/core/logging/app_logger.dart';
-import 'package:game_save_manager/core/di/injection.dart';
-import 'package:game_save_manager/models/api/rawg_models.dart';
+import 'package:saveforge/blocs/add-game/add_game_state.dart';
+import 'package:saveforge/core/logging/app_logger.dart';
+import 'package:saveforge/core/di/injection.dart';
+import 'package:saveforge/models/api/rawg_models.dart';
 import 'dart:async';
 
 class AddGameCubit extends Cubit<AddGameState> {

@@ -1,13 +1,13 @@
 import 'package:fluent_ui/fluent_ui.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:game_save_manager/blocs/game/game_bloc.dart';
-import 'package:game_save_manager/blocs/add-game/add_game_cubit.dart';
-import 'package:game_save_manager/blocs/add-game/add_game_state.dart';
-import 'package:game_save_manager/blocs/profile/profile_bloc.dart';
-import 'package:game_save_manager/core/compontents/image_widget.dart';
-import 'package:game_save_manager/core/logging/app_logger.dart';
-import 'package:game_save_manager/core/compontents/info_bar.dart';
-import 'package:game_save_manager/widgets/game_search_box.dart';
+import 'package:saveforge/blocs/game/game_bloc.dart';
+import 'package:saveforge/blocs/add-game/add_game_cubit.dart';
+import 'package:saveforge/blocs/add-game/add_game_state.dart';
+import 'package:saveforge/blocs/profile/profile_bloc.dart';
+import 'package:saveforge/core/compontents/image_widget.dart';
+import 'package:saveforge/core/logging/app_logger.dart';
+import 'package:saveforge/core/compontents/info_bar.dart';
+import 'package:saveforge/widgets/game_search_box.dart';
 
 class AddGameDialog extends StatefulWidget {
   final GameBloc gameBloc;

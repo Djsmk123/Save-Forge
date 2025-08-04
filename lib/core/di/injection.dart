@@ -1,14 +1,14 @@
 import 'package:get_it/get_it.dart';
-import 'package:game_save_manager/core/logging/app_logger.dart';
-import 'package:game_save_manager/core/theme/app_theme.dart';
-import 'package:game_save_manager/core/api/api_client.dart';
-import 'package:game_save_manager/core/storage/local_storage.dart';
-import 'package:game_save_manager/services/data_service.dart';
-import 'package:game_save_manager/services/save_manager.dart';
-import 'package:game_save_manager/services/game_manager.dart';
-import 'package:game_save_manager/services/export_service.dart';
-import 'package:game_save_manager/services/rawg_api_service.dart';
-import 'package:game_save_manager/blocs/profile/profile_bloc.dart';
+import 'package:saveforge/core/logging/app_logger.dart';
+import 'package:saveforge/core/theme/app_theme.dart';
+import 'package:saveforge/core/api/api_client.dart';
+import 'package:saveforge/core/storage/local_storage.dart';
+import 'package:saveforge/services/data_service.dart';
+import 'package:saveforge/services/save_manager.dart';
+import 'package:saveforge/services/game_manager.dart';
+import 'package:saveforge/services/export_service.dart';
+import 'package:saveforge/services/rawg_api_service.dart';
+import 'package:saveforge/blocs/profile/profile_bloc.dart';
 
 final getIt = GetIt.instance;
 

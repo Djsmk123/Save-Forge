@@ -1,8 +1,8 @@
 import 'package:uuid/uuid.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:game_save_manager/models/game.dart';
-import 'package:game_save_manager/models/profile.dart';
-import 'package:game_save_manager/core/logging/app_logger.dart';
+import 'package:saveforge/models/game.dart';
+import 'package:saveforge/models/profile.dart';
+import 'package:saveforge/core/logging/app_logger.dart';
 
 class DataService {
   final dataLogger = CategoryLogger(LoggerCategory.data);

@@ -1,8 +1,8 @@
-import 'package:game_save_manager/models/game.dart';
-import 'package:game_save_manager/models/profile.dart';
-import 'package:game_save_manager/services/data_service.dart';
-import 'package:game_save_manager/services/save_manager.dart';
-import 'package:game_save_manager/core/logging/app_logger.dart';
+import 'package:saveforge/models/game.dart';
+import 'package:saveforge/models/profile.dart';
+import 'package:saveforge/services/data_service.dart';
+import 'package:saveforge/services/save_manager.dart';
+import 'package:saveforge/core/logging/app_logger.dart';
 import 'package:hive/hive.dart';
 
 class GameManager {

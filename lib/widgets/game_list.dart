@@ -1,5 +1,5 @@
 import 'package:fluent_ui/fluent_ui.dart';
-import 'package:game_save_manager/core/compontents/image_widget.dart';
+import 'package:saveforge/core/compontents/image_widget.dart';
 import '../models/game.dart';
 
 class GameList extends StatelessWidget {

@@ -1,13 +1,13 @@
 import 'dart:io';
 
-import 'package:game_save_manager/core/compontents/info_bar.dart';
+import 'package:saveforge/core/compontents/info_bar.dart';
 import 'package:open_file/open_file.dart';
 import 'package:fluent_ui/fluent_ui.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:game_save_manager/blocs/profile/profile_bloc.dart';
-import 'package:game_save_manager/core/compontents/image_widget.dart';
-import 'package:game_save_manager/models/game.dart';
-import 'package:game_save_manager/models/profile.dart';
+import 'package:saveforge/blocs/profile/profile_bloc.dart';
+import 'package:saveforge/core/compontents/image_widget.dart';
+import 'package:saveforge/models/game.dart';
+import 'package:saveforge/models/profile.dart';
 import 'package:collection/collection.dart';
 
 class GameDetails extends StatelessWidget {

@@ -1,8 +1,8 @@
 import 'package:fluent_ui/fluent_ui.dart';
-import 'package:game_save_manager/core/di/injection.dart';
-import 'package:game_save_manager/core/logging/app_logger.dart';
-import 'package:game_save_manager/core/compontents/info_bar.dart';
-import 'package:game_save_manager/models/game.dart';
+import 'package:saveforge/core/di/injection.dart';
+import 'package:saveforge/core/logging/app_logger.dart';
+import 'package:saveforge/core/compontents/info_bar.dart';
+import 'package:saveforge/models/game.dart';
 
 class ExportDialog extends StatefulWidget {
   final Game? selectedGame;

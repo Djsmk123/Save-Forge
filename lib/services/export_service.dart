@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'dart:io';
 import 'package:file_picker/file_picker.dart';
-import 'package:game_save_manager/core/logging/app_logger.dart';
-import 'package:game_save_manager/core/storage/local_storage.dart';
-import 'package:game_save_manager/models/game.dart';
+import 'package:saveforge/core/logging/app_logger.dart';
+import 'package:saveforge/core/storage/local_storage.dart';
+import 'package:saveforge/models/game.dart';
 
 class ExportService {
   final LocalStorage _localStorage;

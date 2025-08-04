@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart' hide Colors;
 import 'package:fluent_ui/fluent_ui.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:game_save_manager/core/router/router.dart';
-import 'package:game_save_manager/core/utils.dart';
+import 'package:saveforge/core/router/router.dart';
+import 'package:saveforge/core/utils.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:game_save_manager/core/di/injection.dart';
-import 'package:game_save_manager/core/theme/app_theme.dart';
-import 'package:game_save_manager/blocs/theme/theme_bloc.dart';
-import 'package:game_save_manager/blocs/game/game_bloc.dart';
-import 'package:game_save_manager/blocs/profile/profile_bloc.dart';
-import 'package:game_save_manager/models/game.dart';
-import 'package:game_save_manager/models/profile.dart';
-import 'package:game_save_manager/screens/main_screen.dart';
+import 'package:saveforge/core/di/injection.dart';
+import 'package:saveforge/core/theme/app_theme.dart';
+import 'package:saveforge/blocs/theme/theme_bloc.dart';
+import 'package:saveforge/blocs/game/game_bloc.dart';
+import 'package:saveforge/blocs/profile/profile_bloc.dart';
+import 'package:saveforge/models/game.dart';
+import 'package:saveforge/models/profile.dart';
+import 'package:saveforge/screens/main_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

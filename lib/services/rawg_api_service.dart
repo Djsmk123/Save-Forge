@@ -1,8 +1,8 @@
 import 'package:dio/dio.dart';
-import 'package:game_save_manager/core/app_config/config.dart';
-import 'package:game_save_manager/core/logging/app_logger.dart';
-import 'package:game_save_manager/models/api/rawg_models.dart';
-import 'package:game_save_manager/models/game.dart';
+import 'package:saveforge/core/app_config/config.dart';
+import 'package:saveforge/core/logging/app_logger.dart';
+import 'package:saveforge/models/api/rawg_models.dart';
+import 'package:saveforge/models/game.dart';
 
 class RawgApiService {
   final Dio _dio;

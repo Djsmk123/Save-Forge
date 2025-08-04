@@ -1,5 +1,5 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:game_save_manager/models/api/rawg_models.dart';
+import 'package:saveforge/models/api/rawg_models.dart';
 
 part 'add_game_state.freezed.dart';
 

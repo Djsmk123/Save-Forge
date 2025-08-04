@@ -27,6 +27,5 @@ A desktop Flutter application for managing multiple save profiles for games. Per
 - Automatic profile switching before game launch
 - Error handling for missing executables
 
-## Directory Structure
 
-The app manages save data in the following structure:
+

@@ -3,9 +3,9 @@ import 'dart:io';
 import 'package:path_provider/path_provider.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:game_save_manager/core/logging/app_logger.dart';
-import 'package:game_save_manager/models/game.dart';
-import 'package:game_save_manager/models/profile.dart';
+import 'package:saveforge/core/logging/app_logger.dart';
+import 'package:saveforge/models/game.dart';
+import 'package:saveforge/models/profile.dart';
 
 class LocalStorage {
   final storageLogger = CategoryLogger(LoggerCategory.storage);

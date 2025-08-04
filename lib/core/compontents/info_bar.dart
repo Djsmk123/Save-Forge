@@ -2,7 +2,7 @@
 
 
 import 'package:fluent_ui/fluent_ui.dart';
-import 'package:game_save_manager/core/router/router.dart';
+import 'package:saveforge/core/router/router.dart';
 
 void showInfoBar(String title, String content, InfoBarSeverity severity,{
   Widget? action,

@@ -1,8 +1,8 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:fluent_ui/fluent_ui.dart';
-import 'package:game_save_manager/core/theme/app_theme.dart';
-import 'package:game_save_manager/core/logging/app_logger.dart';
+import 'package:saveforge/core/theme/app_theme.dart';
+import 'package:saveforge/core/logging/app_logger.dart';
 
 // Events
 abstract class ThemeEvent extends Equatable {
